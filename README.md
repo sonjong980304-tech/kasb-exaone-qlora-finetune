@@ -23,7 +23,7 @@ QLoRA로 파인튜닝해서 답변 품질(근거 충실도)을 개선하려 한 
 - **held-out 30문항**: `eval/goldenset.jsonl`(전체 1195문항, 학습 데이터에서 제외된 순수 평가용)에서
   게시판별 비례 샘플링(seed=42)한 30문항. 베이스라인/v1/v2/v3와 아래 프롬프트 실험까지 전부 동일 샘플.
 - **판사**: GPT-4o-mini, 전 실험 동일 모델(비교 일관성 유지). `rag/eval/judge.py`의
-  Faithfulness(답변 주장이 근거자료로 뒷받침되는 비율, 0~1) / Answer Relevancy(질문에 실제로
+  Faithfulness(답변 주장이 근거자료로 뒷받침되는 비율, 0~1) Answer Relevancy(질문에 실제로
   답했는지, 0~1) 두 지표.
 - **거부율**: 30문항 중 모델이 "근거를 찾지 못했습니다"로 답변을 포기한 비율.
 - **Faithfulness/Answer Relevancy는 실제로 답변한(거부하지 않은) 문항만의 평균** — 거부한 문항은
