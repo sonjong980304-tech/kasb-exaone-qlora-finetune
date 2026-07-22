@@ -1,8 +1,8 @@
 # kasb-exaone-qlora-finetune
 
-[kasb-crawler](https://github.com/) 프로젝트(한국 회계기준 RAG 챗봇)의 로컬 모델(LG EXAONE-3.5-7.8B-Instruct)을
-QLoRA로 파인튜닝해서 답변 품질(근거 충실도)을 개선하려 한 3차례 실험 기록. 이후 파인튜닝 없이
-프롬프트만 바꾼 대조 실험도 추가로 기록한다.
+한국 회계기준 manager의 로컬 모델(LG EXAONE-3.5-7.8B-Instruct)을
+QLoRA로 파인튜닝해서 답변 품질(근거 충실도)을 개선하려 한 3차례 실험 기록 입니다. 이후 파인튜닝 없이
+프롬프트만 바꾼 대조 실험도 추가로 기록하였습니다.
 
 ## 결론부터
 
